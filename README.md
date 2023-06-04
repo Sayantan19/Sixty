@@ -21,7 +21,7 @@ This is a login page backend built using FastAPI. This page allows users to regi
 <li>
 
 ```/getUserData```: Authorises the user on accessing this url and return user name and email address. It handles error scenarios with appropriate status codes in the following ways:
-- ```400``` : User does not exits
+- ```400``` : User does not exist
 - ```402``` : Invalid API key
 - ```500``` : Key expired 
 
